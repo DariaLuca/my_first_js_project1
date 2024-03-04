@@ -43,3 +43,14 @@ let numberE = 15;
 let numberF = 4;
 let moduloResult = numberE % numberF;
 console.log(`Result impartirii lui ${numberE} la ${numberF} este ${moduloResult}`);
+
+
+//cum aflam cel mai mare numar de tip NUMBER
+console.log(Number.MAX_SAFE_INTEGER);
+
+//cum aflam cel mai mic numar de tip NUMBER
+console.log(Number.MIN_SAFE_INTEGER);
+
+//numere de tip BigInt
+let bigIntNumber = 12491241924819n;
+console.log(`BigInt value is ${bigIntNumber}`);
