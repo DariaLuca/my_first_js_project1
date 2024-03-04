@@ -54,3 +54,16 @@ console.log(Number.MIN_SAFE_INTEGER);
 //numere de tip BigInt
 let bigIntNumber = 12491241924819n;
 console.log(`BigInt value is ${bigIntNumber}`);
+
+
+//String operations
+const myName = 'Daria Luca';
+
+//afisarea unui caracter de la o pozitie 
+//primul caracter
+const firstCharInName = myName[0];
+console.log(`Primul caracter din sirul '${myName}' este ${firstCharInName}`);
+
+//lungimea sirului 
+const myNameLenght = myName.length;
+console.log(`Lungimea sirului '${myName}' este ${myNameLenght}`);
