@@ -45,25 +45,37 @@ let moduloResult = numberE % numberF;
 console.log(`Result impartirii lui ${numberE} la ${numberF} este ${moduloResult}`);
 
 
-//cum aflam cel mai mare numar de tip NUMBER
+// cum aflam cel mai mare numar de tip NUMBER
 console.log(Number.MAX_SAFE_INTEGER);
 
-//cum aflam cel mai mic numar de tip NUMBER
+// cum aflam cel mai mic numar de tip NUMBER
 console.log(Number.MIN_SAFE_INTEGER);
 
-//numere de tip BigInt
+// numere de tip BigInt
 let bigIntNumber = 12491241924819n;
 console.log(`BigInt value is ${bigIntNumber}`);
 
 
-//String operations
+// String operations
 const myName = 'Daria Luca';
 
-//afisarea unui caracter de la o pozitie 
-//primul caracter
+// afisarea unui caracter de la o pozitie 
+// primul caracter
 const firstCharInName = myName[0];
 console.log(`Primul caracter din sirul '${myName}' este ${firstCharInName}`);
 
-//lungimea sirului 
+// lungimea sirului 
 const myNameLenght = myName.length;
 console.log(`Lungimea sirului '${myName}' este ${myNameLenght}`);
+
+// ultimul caracter din string 
+let lastCharIndex = myNameLenght - 1;
+let lastChar = myName[lastCharIndex];
+console.log(`Ultimul caracter din sir este ${lastChar}`);
+
+// concatenare de stringuri
+let firstName = 'Daria';
+let lastName = 'Luca';
+let separator = ' ';
+let fullName = firstName + ' ' + lastName;
+console.log(`Numele meu complet este ${fullName}`);
