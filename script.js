@@ -21,5 +21,8 @@ let secondNumber = 21;
 let sum = firstNumber + secondNumber;
 console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${sum}`);
 
-
+//scadere
+let pastAge = age - years;
+console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
+console.log(`Acum ${years} ani aveam varsta de ${age - years}`)
 
