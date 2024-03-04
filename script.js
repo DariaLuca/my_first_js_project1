@@ -1,5 +1,5 @@
 let age= 31;
-let years= 5;
+let years= 10;
 console.log(age);
 //console.log(years);
 age= 36;
@@ -32,4 +32,9 @@ let numberB = 10;
 let multiplyResult = numberA * numberB;
 console.log(`${numberA} inmultit cu ${numberB} da ${multiplyResult}`);
 
+//Impartire
+let numberC = 25;
+let numberD = 10;
+let divisionResult = numberC / numberD;
+console.log(`${numberC} impartit la ${numberD} rezulta ${divisionResult}`);
 
