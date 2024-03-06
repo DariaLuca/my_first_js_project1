@@ -74,7 +74,7 @@ let lastChar = myName[lastCharIndex];
 console.log(`Ultimul caracter din sir este ${lastChar}`);
 
 // concatenare de stringuri
-let firstName = 'Daria';
+let firstName = 'Daria'.endsWith('d');
 let lastName = 'Luca';
 let separator = ' ';
 let fullName = firstName + ' ' + lastName;
@@ -88,3 +88,25 @@ let remainder = checkedNumber % 2;
 
 let isEven = remainder === 0;
 console.log(`Number ${checkedNumber} is even: ${isEven}`);
+
+// Date booleene (true/false)
+
+let isAdult = true;
+console.log(`isAdult = ${true}`);
+let isOld = false;
+console.log(`isOld = ${false}`);
+
+// data null sau undefine
+let nullValue = null;
+console.log(`nullValue = ${nullValue}`);
+
+let  notInitialized;
+console.log(`notInitialized = ${notInitialized}`);
+
+
+// adaugare +1 la un numar
+let x = 10;
+console.log('x=', x);
+
+x++;
+console.log('x=', x);
